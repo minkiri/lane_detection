@@ -1,7 +1,7 @@
 **lane_detection**
 
 1. Git clone repository in your workspace
-    - `git clone https://github.com/minkiri/UltraFastLaneDetection_ROS.git`
+    - `git clone https://github.com/minkiri/lane_detection.git`
 
 <br>
 
@@ -10,17 +10,14 @@
 
 <br>
 
-3. Change file paths and topics to suit your settings.
+3. Run
+   - `python train.py`
 
 <br>
 
-4. Run
-   - `catkin_make`
-   - `source devel/setup.bash`
-   - `roslaunch lane_detection lane_detection.launch`
-
-<br>
+4. Setting
+   - `Adjust the size of the epochs and batch
 
 **Computer Performance**
-- Intel core i7
-- NVIDIA GeForce 3050Ti laptop, 8GB
+- Intel core i5
+- NVIDIA GeForce 3050 laptop, 4GB
