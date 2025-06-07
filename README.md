@@ -16,7 +16,7 @@
 <br>
 
 4. Setting
-   - `Adjust the size of the epochs and batch
+   - Adjust the size of the epochs and batch
 
 **Computer Performance**
 - Intel core i5
